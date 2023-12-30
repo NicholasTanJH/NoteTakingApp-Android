@@ -63,9 +63,9 @@ abstract class NoteDataBase : RoomDatabase() {
                     )
                     noteDao.insert(
                         Note(
-                            1,
+                            0,
                             "Sorting",
-                            "You can sort your notes by simply drag your note!",
+                            "You can sort your notes by simply hold and drag your note!",
                             1
                         )
                     )
